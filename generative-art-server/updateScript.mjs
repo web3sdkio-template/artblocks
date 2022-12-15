@@ -2,7 +2,7 @@ import { Web3sdkioSDK } from "@web3sdkio/sdk";
 
 (async () => {
   const sdk = Web3sdkioSDK.fromPrivateKey(
-    // Learn more about securely accessing your private key: https://portal.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
+    // Learn more about securely accessing your private key: https://docs.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
     "<your-private-key-here>",
     "goerli"
   );

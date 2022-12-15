@@ -9,7 +9,7 @@ There are two components to this template:
 
 ## Contract Logic
 
-The [Contract.sol](./contract/contracts/Contract.sol) file contains our NFT Drop contract that uses the [ERC721Drop](https://portal.web3sdk.io/contracts-sdk/base-contracts/erc-721/erc721drop) base contract.
+The [Contract.sol](./contract/contracts/Contract.sol) file contains our NFT Drop contract that uses the [ERC721Drop](https://docs.web3sdk.io/contracts-sdk/base-contracts/erc-721/erc721drop) base contract.
 
 The contract contrains a `script` variable to store the logic to generate the art for a given NFT, which gets set in the constructor (when the contract gets deployed).
 
